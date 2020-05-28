@@ -10,7 +10,8 @@
 
 
 def reverse_each_word(string_argument)
-  reversed_string = string_argument.split()
+  reversed_string = string_argument
+  #.split()
   reversed_string.collect do |word|
     word.reversed!
   end
