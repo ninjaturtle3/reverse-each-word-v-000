@@ -19,4 +19,3 @@ def reverse_each_word(string_argument)
 
 return reversed_string.join(" ")
 end
-reverse_each_word
