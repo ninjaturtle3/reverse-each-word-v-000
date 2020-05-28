@@ -6,7 +6,8 @@
 #
 #   end
 def reverse_each_word (string_argument)
-  reversed_string = string_argument.split().each do|word|
+  reversed_string = string_argument.split()
+  reversed_string.each do|word|
     word.reverse!
     end
 
